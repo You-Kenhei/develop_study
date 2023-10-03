@@ -13,7 +13,10 @@ public class TestController {
 
 
         String[] name = {"张三", "李四", "王五", "陈六"};
-        String[] image = {"https://inews.gtimg.com/newsapp_bt/0/4479555809/640", "https://img1.baidu.com/it/u=3236138915,187045974&fm=253&fmt=auto?w=300&h=300", "https://tupian.qqw21.com/article/UploadPic/2019-3/201931711454915475.jpg", "https://img1.baidu.com/it/u=1035926869,2598734641&fm=253&fmt=auto&app=138&f=JPEG?w=300&h=300"};
+        String[] image = {"https://www.apple.com.cn/leadership/images/overview/ceo_image.jpg.large_2x.jpg",
+                "https://www.apple.com.cn/leadership/images/overview/srvpsoftwareengineering_image.jpg.large_2x.jpg",
+                "https://www.apple.com.cn/leadership/images/overview/carol_surface.png.large_2x.png",
+                "https://www.apple.com.cn/leadership/images/overview/greaterchina_image.jpg.large_2x.jpg"};
         int[] gender = {1, 1, 1, 2};
         String[] job = {"班主任", "讲师", "校长", "保安"};
         String[] entryDate = {"2008-05-09", "2012-08-09", "2013-05-23", "2000-01-18"};
