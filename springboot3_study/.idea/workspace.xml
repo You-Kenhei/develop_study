@@ -5,6 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ff96caa-011b-42f7-8a32-702bedd807ca" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/boot3-01-demo/src/main/java/com/youkenhei/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot3-02-demo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot3-02-demo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot3-02-demo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot3-02-demo/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot3-02-demo/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot3-02-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot3-02-demo/src/main/java/com/youkenhei/Boot02DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot3-02-demo/src/main/java/com/youkenhei/controller/ResponseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot3-02-demo/src/main/java/com/youkenhei/controller/TestController_01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot3-02-demo/src/main/java/com/youkenhei/pojo/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot3-02-demo/src/main/java/com/youkenhei/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot3-02-demo/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot3-02-demo/src/test/java/com/youkenhei/Boot02DemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +46,7 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHome" value="/Library/maven/apache-maven-3.9.4" />
+        <option name="useMavenConfig" value="true" />
         <option name="userSettingsFile" value="/Library/maven/apache-maven-3.9.4/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -57,15 +75,29 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "IntelliLang.Configuration",
     "spring.configuration.checksum": "50dfb4ba7ac7178e366242081f7d2ad7",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Boot02DemoApplication">
+    <configuration name="Boot02DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="boot3-02-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.youkenhei.Boot02DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Boot301DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="boot3-01-demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.youkenhei.Boot301DemoApplication" />
@@ -95,7 +127,7 @@
       <updated>1696057989707</updated>
       <workItem from="1696057991203" duration="968000" />
       <workItem from="1696062981119" duration="5309000" />
-      <workItem from="1696231293046" duration="17580000" />
+      <workItem from="1696231293046" duration="25689000" />
     </task>
     <servers />
   </component>
