@@ -3,15 +3,11 @@ package com.youkenhei.controller;
 import com.youkenhei.pojo.Emp;
 import com.youkenhei.pojo.Result;
 import com.youkenhei.service.EmpService;
-import com.youkenhei.service.EmpServiceA;
-import com.youkenhei.utils.XmlParserUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.net.URL;
 import java.util.List;
-import java.util.Set;
 
 @RestController
 public class EmpController {

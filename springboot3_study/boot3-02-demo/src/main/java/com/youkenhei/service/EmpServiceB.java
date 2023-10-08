@@ -2,12 +2,14 @@ package com.youkenhei.service;
 
 import com.youkenhei.dao.EmpDao;
 import com.youkenhei.pojo.Emp;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 
-//@Component
-public class EmpServiceA implements EmpService {
-//    @Autowired
+@Component
+public class EmpServiceB implements EmpService {
+    @Autowired
     private EmpDao empDao;
 
     @Override
@@ -15,9 +17,9 @@ public class EmpServiceA implements EmpService {
         List<Emp> empList = empDao.listEmp();
         for (Emp emp : empList) {
             if ("1".equals(emp.getGender())) {
-                emp.setGender("男");
+                emp.setGender("男士");
             } else {
-                emp.setGender("女");
+                emp.setGender("女士");
             }
 
             String job = emp.getJob();
