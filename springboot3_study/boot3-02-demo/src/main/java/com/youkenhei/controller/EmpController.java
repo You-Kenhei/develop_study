@@ -2,7 +2,10 @@ package com.youkenhei.controller;
 
 import com.youkenhei.pojo.Emp;
 import com.youkenhei.pojo.Result;
+import com.youkenhei.service.EmpService;
+import com.youkenhei.service.EmpServiceA;
 import com.youkenhei.utils.XmlParserUtils;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -12,6 +15,19 @@ import java.util.Set;
 
 @RestController
 public class EmpController {
+    @Autowired
+    private EmpService empService;
+
+    @RequestMapping("/listEmp")
+    public Result list() {
+
+
+        List<Emp> empList = empService.listEmp();
+
+        return Result.success(empList);
+    }
+
+/*
     @RequestMapping("/listEmp")
     public Result list(){
 
@@ -37,4 +53,6 @@ public class EmpController {
 
         return Result.success(empList);
     }
+*/
+
 }
