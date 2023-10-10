@@ -2,13 +2,14 @@ package com.youkenhei.service;
 
 import com.youkenhei.dao.EmpDao;
 import com.youkenhei.pojo.Emp;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
 
 @Component
 public class EmpServiceB implements EmpService {
-//    @Autowired
+    @Autowired
     private EmpDao empDao;
 
     @Override
