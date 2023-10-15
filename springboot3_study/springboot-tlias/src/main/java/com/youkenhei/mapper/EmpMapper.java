@@ -2,8 +2,8 @@ package com.youkenhei.mapper;
 
 import com.youkenhei.pojo.Emp;
 import org.apache.ibatis.annotations.Mapper;
-import org.apache.ibatis.annotations.Select;
 
+import java.time.LocalDate;
 import java.util.List;
 
 @Mapper
@@ -19,6 +19,6 @@ public interface EmpMapper {
     /**
      * 员工信息查询，以及pageHelper分页所用
      */
-    @Select("select * from tlias.emp")
-    public List<Emp> list();
+//    @Select("select * from tlias.emp")
+    public List<Emp> list(String name, Short gender, LocalDate begin, LocalDate end);
 }
