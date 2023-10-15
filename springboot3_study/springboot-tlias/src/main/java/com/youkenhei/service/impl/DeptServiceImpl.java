@@ -10,6 +10,7 @@ import java.time.LocalDateTime;
 import java.util.List;
 
 @Service
+
 public class DeptServiceImpl implements DeptService {
     @Autowired
     private DeptMapper deptMapper;
@@ -32,8 +33,14 @@ public class DeptServiceImpl implements DeptService {
     }
 
     @Override
+    public Dept getById(Integer id) {
+        return deptMapper.getById(id);
+    }
+    @Override
     public void alert(Dept dept) {
         dept.setUpdateTime(LocalDateTime.now());
         deptMapper.alert(dept);
     }
+
+
 }

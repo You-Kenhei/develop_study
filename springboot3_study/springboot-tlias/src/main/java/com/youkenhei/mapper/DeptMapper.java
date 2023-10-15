@@ -18,4 +18,7 @@ public interface DeptMapper {
 
     @Update("update tlias.dept set name = #{name},update_time = #{updateTime} where id = #{id}")
     void alert(Dept dept);
+
+    @Select("select * from tlias.dept where id = #{id}")
+    Dept getById(Integer id);
 }
