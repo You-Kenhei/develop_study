@@ -36,4 +36,11 @@ public class DeptController {
         deptService.add(dept);
         return Result.success();
     }
+
+    @PutMapping
+    public Result alter(@RequestBody Dept dept){
+        log.info("修改部门信息：{}",dept);
+        deptService.alert(dept);
+        return Result.success();
+    }
 }

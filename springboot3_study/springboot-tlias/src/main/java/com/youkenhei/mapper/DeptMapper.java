@@ -1,10 +1,7 @@
 package com.youkenhei.mapper;
 
 import com.youkenhei.pojo.Dept;
-import org.apache.ibatis.annotations.Delete;
-import org.apache.ibatis.annotations.Insert;
-import org.apache.ibatis.annotations.Mapper;
-import org.apache.ibatis.annotations.Select;
+import org.apache.ibatis.annotations.*;
 
 import java.util.List;
 
@@ -18,4 +15,7 @@ public interface DeptMapper {
 
     @Insert("insert into tlias.dept(name, create_time, update_time) values(#{name},#{createTime},#{updateTime})")
     void insert(Dept dept);
+
+    @Update("update tlias.dept set name = #{name},update_time = #{updateTime} where id = #{id}")
+    void alert(Dept dept);
 }
