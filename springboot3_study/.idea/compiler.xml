@@ -8,13 +8,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springboot-tlias" />
-        <module name="boot3-01-demo" />
-        <module name="springboot-mybatis-quickstart" />
-        <module name="boot3-02-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="boot3-01-demo" target="17" />
+      <module name="boot3-02-demo" target="17" />
       <module name="springboot-mybatis-crud" target="17" />
+      <module name="springboot-mybatis-quickstart" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
