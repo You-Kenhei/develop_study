@@ -32,4 +32,17 @@ public class EmpServiceImpl implements EmpService {
         Page<Emp> p = (Page<Emp>) empList;
         return new PageBean(p.getTotal(), p.getResult());
     }
+
+    @Override
+    public void delete(List<Integer> ids) {
+        empMapper.delete(ids);
+    }
+
+    @Override
+    public void sava(Emp emp) {
+        emp.setCreateTime(LocalDate.now());
+        emp.setUpdateTime(LocalDate.now());
+
+        empMapper.sava(emp);
+    }
 }
