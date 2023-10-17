@@ -45,4 +45,16 @@ public class EmpServiceImpl implements EmpService {
 
         empMapper.sava(emp);
     }
+
+    @Override
+    public Emp getById(Integer id) {
+        Emp emp = empMapper.getById(id);
+        return emp;
+    }
+
+    @Override
+    public void update(Emp emp) {
+        emp.setUpdateTime(LocalDate.now());
+        empMapper.update(emp);
+    }
 }
