@@ -3,6 +3,8 @@ package com.youkenhei.service.impl;
 import com.youkenhei.mapper.DeptMapper;
 import com.youkenhei.mapper.EmpMapper;
 import com.youkenhei.pojo.Dept;
+import com.youkenhei.pojo.DeptLog;
+import com.youkenhei.service.DeptLogService;
 import com.youkenhei.service.DeptService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -18,6 +20,8 @@ public class DeptServiceImpl implements DeptService {
     private DeptMapper deptMapper;
     @Autowired
     private EmpMapper empMapper;
+    @Autowired
+    private DeptLogService deptLogService;
 
     @Override
     public List<Dept> list() {
@@ -27,8 +31,16 @@ public class DeptServiceImpl implements DeptService {
     @Override
     @Transactional(rollbackFor = Exception.class)
     public void delete(Integer id) {
-        deptMapper.deleteById(id);
-        empMapper.deleteByDeptId(id);
+        try {
+            deptMapper.deleteById(id);
+            int i = 1 / 0;
+            empMapper.deleteByDeptId(id);
+        } finally {
+            DeptLog deptLog = new DeptLog();
+            deptLog.setCreateTime(LocalDateTime.now());
+            deptLog.setDescription("对"+id+"进行了删除操作");
+            deptLogService.insert(deptLog);
+        }
     }
 
     @Override
