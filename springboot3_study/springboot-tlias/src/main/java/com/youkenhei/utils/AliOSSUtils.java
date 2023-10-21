@@ -2,10 +2,12 @@ package com.youkenhei.utils;
 
 import com.aliyun.oss.OSS;
 import com.aliyun.oss.OSSClientBuilder;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.web.multipart.MultipartFile;
 
-import java.io.*;
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.UUID;
 
 /**
@@ -14,15 +16,17 @@ import java.util.UUID;
 @Component
 public class AliOSSUtils {
 
-    private String endpoint = "https://oss-ap-northeast-1.aliyuncs.com";
-    private String accessKeyId = "LTAI5t9e8kF7KZWHoUFXm4EL";
-    private String accessKeySecret = "8QJbb8WHdydidLukKM6JqmjvDQs48y";
-    private String bucketName = "youkenhei-study";
+    @Autowired
+    private AliOSSProperties aliOSSProperties;
 
     /**
      * 实现上传图片到OSS
      */
     public String upload(MultipartFile file) throws IOException {
+        String endpoint = aliOSSProperties.getEndpoint();
+        String bucketName = aliOSSProperties.getBucketName();
+        String accessKeyId = aliOSSProperties.getAccessKeyId();
+        String accessKeySecret = aliOSSProperties.getAccessKeySecret();
         // 获取上传的文件的输入流
         InputStream inputStream = file.getInputStream();
 
