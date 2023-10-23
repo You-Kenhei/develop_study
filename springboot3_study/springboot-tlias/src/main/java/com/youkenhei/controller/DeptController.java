@@ -1,5 +1,6 @@
 package com.youkenhei.controller;
 
+import com.youkenhei.anno.Log;
 import com.youkenhei.pojo.Dept;
 import com.youkenhei.pojo.Result;
 import com.youkenhei.service.DeptService;
@@ -23,6 +24,7 @@ public class DeptController {
         return Result.success(data);
     }
 
+    @Log
     @DeleteMapping("/{id}")
     public Result delete(@PathVariable Integer id) {
         log.info("根据id删除部门:{}", id);
@@ -30,6 +32,7 @@ public class DeptController {
         return Result.success();
     }
 
+    @Log
     @PostMapping
     public Result add(@RequestBody Dept dept){
         log.info("新增部门：{}",dept);
@@ -44,6 +47,7 @@ public class DeptController {
         return Result.success(data);
     }
 
+    @Log
     @PutMapping
     public Result alter(@RequestBody Dept dept){
         log.info("修改部门信息：{}",dept);
