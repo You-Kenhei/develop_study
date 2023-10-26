@@ -8,6 +8,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springboot-tlias" />
+        <module name="aliyun-oss-spring-boot-autoconfigure" />
+        <module name="aliyun-oss-spring-boot-starter" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,6 +21,8 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="aliyun-oss-spring-boot-autoconfigure" options="-parameters" />
+      <module name="aliyun-oss-spring-boot-starter" options="-parameters" />
       <module name="boot3-01-demo" options="-parameters" />
       <module name="boot3-02-demo" options="-parameters" />
       <module name="springboot-mybatis-crud" options="-parameters" />
