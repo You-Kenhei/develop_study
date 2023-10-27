@@ -2,8 +2,6 @@ package com.youkenhei;
 
 import com.aliyun.oss.OSS;
 import com.aliyun.oss.OSSClientBuilder;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.IOException;
@@ -13,11 +11,17 @@ import java.util.UUID;
 /**
  * 阿里云 OSS 工具类
  */
-@Component
 public class AliOSSUtils {
 
-    @Autowired
     private AliOSSProperties aliOSSProperties;
+
+    public AliOSSProperties getAliOSSProperties() {
+        return aliOSSProperties;
+    }
+
+    public void setAliOSSProperties(AliOSSProperties aliOSSProperties) {
+        this.aliOSSProperties = aliOSSProperties;
+    }
 
     /**
      * 实现上传图片到OSS

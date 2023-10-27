@@ -1,7 +1,10 @@
 package com.youkenhei.controller;
 
+import com.youkenhei.AliOSSUtils;
+//import com.youkenhei.utils.AliOSSUtils;
+
+
 import com.youkenhei.pojo.Result;
-import com.youkenhei.utils.AliOSSUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -18,7 +21,7 @@ public class UploadController {
 
     @PostMapping("/upload")
     public Result upload(MultipartFile image) throws IOException {
-        log.info("上传文件：{}",image.getOriginalFilename());
+        log.info("通过自定义依赖上传文件：{}",image.getOriginalFilename());
         String url = aliOSSUtils.upload(image);
         log.info("文件上传完成 url：{}",url);
 

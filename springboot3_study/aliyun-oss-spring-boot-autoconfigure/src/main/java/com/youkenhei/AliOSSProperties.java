@@ -1,10 +1,8 @@
 package com.youkenhei;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.stereotype.Component;
 
 @ConfigurationProperties(prefix = "aliyun.oss")
-@Component
 public class AliOSSProperties {
     private String endpoint;
     private String accessKeyId;
