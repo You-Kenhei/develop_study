@@ -8,6 +8,5 @@ public class Test1 {
 //        System.out.println(index);
         System.out.println(arr.length);
         System.out.println(arr[6]);
-        System.out.println(arr[0 - 2]);
     }
 }
