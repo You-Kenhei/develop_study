@@ -1,8 +1,10 @@
 import org.junit.Test;
 
-import java.util.Arrays;
+import java.util.*;
 
 public class TestSpace {
+    private Map<Integer,Integer> test3Map;
+
     @Test
     public void test1(){
         int[] arr1 = new int[3];
@@ -31,5 +33,26 @@ public class TestSpace {
             }
         }
         System.out.println(result);
+    }
+
+    @Test
+    public void test3(){
+        Integer[] nums = {1, 2, 3, 4, 5, 6};
+        List<Integer> list = Arrays.asList(nums);
+        System.out.println(list);
+        System.out.println(list.get(1));
+
+        int index = 0;
+        System.out.println(++index);
+        System.out.println(index);
+    }
+
+    @Test
+    public void test4(){
+        HashMap<Integer, Integer> map = new HashMap<>();
+        map.put(1, 2);
+        map.put(1, 2);
+        map.put(2, 2);
+        System.out.println(map.toString());
     }
 }
