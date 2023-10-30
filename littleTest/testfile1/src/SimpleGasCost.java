@@ -137,4 +137,27 @@ public class SimpleGasCost {
         System.out.println(sum);
     }
 
+    @Test
+    public void trap3() {
+        int[] height = {0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1};
+        int length = height.length;
+        int[] max_left = new int[length];
+        int[] max_right = new int[length];
+
+        for (int i = 1; i < length; i++) {
+            max_left[i] = Math.max(max_left[i - 1], height[i - 1]);
+        }
+        for (int i = length - 2; i >= 0; i--) {
+            max_right[i] = Math.max(max_right[i + 1], height[i + 1]);
+        }
+        int sum = 0;
+        for (int i = 0; i < length; i++) {
+            int min = Math.min(max_left[i], max_right[i]);
+            if (min > height[i]){
+                sum += min - height[i];
+            }
+        }
+        System.out.println(sum);
+    }
+
 }
