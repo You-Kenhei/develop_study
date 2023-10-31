@@ -130,7 +130,7 @@ public class SimpleGasCost {
         int sum = 0;
         for (int i = 0; i < length; i++) {
             int min = Math.min(max_left[i], max_right[i]);
-            if (min > height[i]){
+            if (min > height[i]) {
                 sum += min - height[i];
             }
         }
@@ -153,11 +153,20 @@ public class SimpleGasCost {
         int sum = 0;
         for (int i = 0; i < length; i++) {
             int min = Math.min(max_left[i], max_right[i]);
-            if (min > height[i]){
+            if (min > height[i]) {
                 sum += min - height[i];
             }
         }
         System.out.println(sum);
+    }
+
+    @Test
+    public void splitTest() {
+        String s = "hello world";
+        String[] arr = s.split(" ");
+        System.out.println(arr.length);
+//        System.out.println(s.length());
+//        System.out.println(s.split(" ")[1]);
     }
 
 }
