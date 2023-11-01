@@ -26,11 +26,10 @@ public class DeptServiceImpl implements DeptService {
     }
 
     @Override
-    public void add(String name) {
-        LocalDateTime createTime = LocalDateTime.now();
-        LocalDateTime updateTime = LocalDateTime.now();
-        new Dept(name,createTime,updateTime)
-        deptMapper.add(Dept dept);
+    public void add(Dept dept) {
+        dept.setUpdateTime(LocalDateTime.now());
+        dept.setCreateTime(LocalDateTime.now());
+        deptMapper.add(dept);
     }
 
 

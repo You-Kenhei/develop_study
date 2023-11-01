@@ -18,5 +18,5 @@ public interface DeptMapper {
     void deleteById(Integer id);
 
     @Insert("insert into tlias_pra.dept(name, create_time, update_time) values (#{name},#{createTime},#{updateTime})")
-    void add(String name, LocalDateTime createTime, LocalDateTime updateTime);
+    void add(Dept dept);
 }
