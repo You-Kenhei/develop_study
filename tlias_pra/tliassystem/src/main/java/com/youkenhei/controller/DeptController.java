@@ -34,9 +34,21 @@ public class DeptController {
 
 
     @PostMapping
-    public Result add(@RequestBody Dept dept){
+    public Result add(@RequestBody Dept dept) {
         log.info("添加部门");
         deptService.add(dept);
+        return Result.success();
+    }
+
+    @GetMapping("/{id}")
+    public Result getById(@PathVariable Integer id) {
+        Dept dept = deptService.getById(id);
+        return Result.success(dept);
+    }
+
+    @PutMapping
+    public Result alter(@RequestBody Dept dept){
+        deptService.alter(dept);
         return Result.success();
     }
 
