@@ -12,7 +12,7 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 public class Emp {
     private Integer id;
-    private String userName;
+    private String username;
     private String passWord;
     private String name;
     private short gender;
