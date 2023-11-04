@@ -13,7 +13,7 @@ import java.time.LocalDateTime;
 public class Emp {
     private Integer id;
     private String username;
-    private String passWord;
+    private String password;
     private String name;
     private short gender;
     private String image;

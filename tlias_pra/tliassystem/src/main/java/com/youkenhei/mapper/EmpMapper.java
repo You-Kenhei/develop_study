@@ -21,4 +21,7 @@ public interface EmpMapper {
     Emp selectById(Integer id);
 
     void update(Emp emp);
+
+    @Select("select  * from tlias_pra.emp where username = #{username} and password = #{password}")
+    Emp selectByUsernameAndPassword(Emp emp);
 }
