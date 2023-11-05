@@ -29,7 +29,8 @@ public class LoginController {
             claims.put("name", e.getName());
             claims.put("username", e.getUsername());
             String jwt = JWTUtils.generateJwt(claims);
-            return Result.success(claims);
+            log.info(jwt);
+            return Result.success(jwt);
         }
         return Result.error("用户名或密码错误");
     }
