@@ -65,6 +65,14 @@
             <artifactId>spring-boot-configuration-processor</artifactId>
             <version>3.1.2</version>
         </dependency>
+
+        <!--        JWT 令牌依赖-->
+        <dependency>
+            <groupId>io.jsonwebtoken</groupId>
+            <artifactId>jjwt</artifactId>
+            <version>0.9.1</version>
+        </dependency>
+
     </dependencies>
 
     <build>
