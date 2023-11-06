@@ -1,5 +1,6 @@
 package com.youkenhei.controller;
 
+import com.youkenhei.anno.Log;
 import com.youkenhei.pojo.Emp;
 import com.youkenhei.pojo.PageBean;
 import com.youkenhei.pojo.Result;
@@ -32,12 +33,14 @@ public class EmpController {
         return Result.success(pageBean);
     }
 
+    @Log
     @DeleteMapping("/{ids}")
     public Result deleteByIds(@PathVariable List<Integer> ids) {
         empService.deleteByIds(ids);
         return Result.success();
     }
 
+    @Log
     @PostMapping
     public Result addEmp(@RequestBody Emp emp) {
         empService.addEmp(emp);
@@ -50,6 +53,7 @@ public class EmpController {
         return Result.success(emp);
     }
 
+    @Log
     @PutMapping
     public Result update(@RequestBody Emp emp) {
         empService.update(emp);

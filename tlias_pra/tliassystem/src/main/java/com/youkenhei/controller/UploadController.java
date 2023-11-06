@@ -1,5 +1,6 @@
 package com.youkenhei.controller;
 
+import com.youkenhei.anno.Log;
 import com.youkenhei.pojo.Result;
 import com.youkenhei.utils.AliOSSUtils;
 import lombok.extern.slf4j.Slf4j;
@@ -16,6 +17,7 @@ public class UploadController {
     @Autowired
     private AliOSSUtils aliOSSUtils;
 
+    @Log
     @PostMapping("/upload")
     public Result upload(MultipartFile image) throws IOException {
         log.info("上传文件至Aliyun OSS");

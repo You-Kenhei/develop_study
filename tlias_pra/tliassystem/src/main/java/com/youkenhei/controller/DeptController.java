@@ -1,9 +1,9 @@
 package com.youkenhei.controller;
 
+import com.youkenhei.anno.Log;
 import com.youkenhei.pojo.Dept;
 import com.youkenhei.pojo.Result;
 import com.youkenhei.service.DeptService;
-import lombok.extern.java.Log;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -25,6 +25,7 @@ public class DeptController {
         return Result.success(data);
     }
 
+    @Log
     @DeleteMapping("/{id}")
     public Result deleteById(@PathVariable Integer id) {
         log.info("按id删除部门");
@@ -32,7 +33,7 @@ public class DeptController {
         return Result.success();
     }
 
-
+    @Log
     @PostMapping
     public Result add(@RequestBody Dept dept) {
         log.info("添加部门");
@@ -46,6 +47,7 @@ public class DeptController {
         return Result.success(dept);
     }
 
+    @Log
     @PutMapping
     public Result alter(@RequestBody Dept dept){
         deptService.alter(dept);
