@@ -7,13 +7,15 @@ import io.jsonwebtoken.SignatureAlgorithm;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.web.servlet.ServletComponentScan;
 
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
 @Slf4j
-//@SpringBootTest
+@SpringBootTest
+@ServletComponentScan // SpringWeb 并不包含 Servlet，配置Servlet扫描注解以使用Filter
 class TliassystemApplicationTests {
 
     @Test

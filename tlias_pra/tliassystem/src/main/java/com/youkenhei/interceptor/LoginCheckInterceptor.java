@@ -18,11 +18,13 @@ public class LoginCheckInterceptor implements HandlerInterceptor {
     public boolean preHandle(HttpServletRequest req, HttpServletResponse resp, Object handler) throws Exception {
         String url = req.getRequestURL().toString();
         if (url.contains("/login")) {
+            log.info("@@@@@  login pass");
             return true;
         }
 
         String jwt = req.getHeader("token");
         if (!StringUtils.hasLength(jwt)) {
+            log.info("@@@@@  NOT_LOGIN");
             Result error = Result.error("NOT_LOGIN");
             String result = JSONObject.toJSONString(error);
             resp.getWriter().write(result);
@@ -33,7 +35,7 @@ public class LoginCheckInterceptor implements HandlerInterceptor {
         try {
             JWTUtils.parseJwt(jwt);
         } catch (Exception e) {
-            log.info("JWT令牌解析失败");
+            log.info("@@@@@  JWT parse error");
             Result error = Result.error("认证失败，请联系管理员");
             String result = JSONObject.toJSONString(error);
             resp.getWriter().write(result);
