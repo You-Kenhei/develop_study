@@ -73,7 +73,8 @@
             <version>0.9.1</version>
         </dependency>
 
-<!--        Filter 所需要的依赖，fastjson-->
+<!--        Interceptor 和 Filter 所需要的依赖，fastjson-->
+<!--        用于加工返回的Result数据-->
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
