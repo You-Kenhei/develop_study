@@ -30,7 +30,7 @@ public class LoginController {
             claims.put("username", e.getUsername());
             String jwt = JWTUtils.generateJwt(claims);
             log.info(jwt);
-            return Result.success(jwt);
+            return Result.success(jwt );
         }
         return Result.error("用户名或密码错误");
     }

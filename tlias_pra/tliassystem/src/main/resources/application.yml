@@ -19,3 +19,7 @@ aliyun:
     accessKeyId: LTAI5t9e8kF7KZWHoUFXm4EL
     accessKeySecret: 8QJbb8WHdydidLukKM6JqmjvDQs48y
     bucketName: youkenhei-study
+
+logging:
+  level:
+    org.springframework.jdbc.support.JdbcTransactionManager: debug

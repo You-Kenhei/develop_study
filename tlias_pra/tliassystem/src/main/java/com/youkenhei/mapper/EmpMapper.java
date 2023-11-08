@@ -1,6 +1,7 @@
 package com.youkenhei.mapper;
 
 import com.youkenhei.pojo.Emp;
+import org.apache.ibatis.annotations.Delete;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
@@ -24,4 +25,7 @@ public interface EmpMapper {
 
     @Select("select  * from tlias_pra.emp where username = #{username} and password = #{password}")
     Emp selectByUsernameAndPassword(Emp emp);
+
+    @Delete("delete from tlias_pra.emp where dept_id = #{id}")
+    void deleteByDeptId(Integer id);
 }
