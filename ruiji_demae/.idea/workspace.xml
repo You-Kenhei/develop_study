@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e568ce7-4c8b-4302-ae06-2a5ba72039dd" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/755c3b3c-9124-402a-92a4-bff609ed2103.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/755c3b3c-9124-402a-92a4-bff609ed2103.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +34,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -45,7 +50,8 @@
     "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "application.passwordSafe",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "65bcd5d6d29da13bfe78c7cb5b1b1961",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -80,11 +86,16 @@
       <updated>1700007397375</updated>
       <workItem from="1700007398384" duration="24000" />
       <workItem from="1700009472069" duration="81000" />
-      <workItem from="1700009803627" duration="1877000" />
+      <workItem from="1700009803627" duration="1981000" />
+      <workItem from="1700034952202" duration="916000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
