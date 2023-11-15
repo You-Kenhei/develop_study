@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.youkenhei</groupId>
-    <artifactId>ruiji_backend</artifactId>
+    <artifactId>ruiji-backend</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>ruiji_backend</name>
-    <description>ruiji_backend</description>
+    <name>ruiji-backend</name>
+    <description>ruiji-backend</description>
     <properties>
         <java.version>17</java.version>
     </properties>
@@ -56,9 +56,6 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <image>
-                        <builder>paketobuildpacks/builder-jammy-base:latest</builder>
-                    </image>
                     <excludes>
                         <exclude>
                             <groupId>org.projectlombok</groupId>
