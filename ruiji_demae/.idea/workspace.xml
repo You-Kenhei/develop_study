@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e568ce7-4c8b-4302-ae06-2a5ba72039dd" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruiji_demae.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ruiji_demae.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +80,7 @@
       <updated>1700007397375</updated>
       <workItem from="1700007398384" duration="24000" />
       <workItem from="1700009472069" duration="81000" />
-      <workItem from="1700009803627" duration="1110000" />
+      <workItem from="1700009803627" duration="1877000" />
     </task>
     <servers />
   </component>
