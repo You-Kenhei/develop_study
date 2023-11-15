@@ -50,7 +50,7 @@
     "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "MavenSettings",
     "spring.configuration.checksum": "65bcd5d6d29da13bfe78c7cb5b1b1961",
     "vue.rearranger.settings.migration": "true"
   },
@@ -87,7 +87,7 @@
       <workItem from="1700007398384" duration="24000" />
       <workItem from="1700009472069" duration="81000" />
       <workItem from="1700009803627" duration="1981000" />
-      <workItem from="1700034952202" duration="916000" />
+      <workItem from="1700034952202" duration="1895000" />
     </task>
     <servers />
   </component>
