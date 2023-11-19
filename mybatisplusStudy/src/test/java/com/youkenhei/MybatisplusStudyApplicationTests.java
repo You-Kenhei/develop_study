@@ -9,6 +9,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Map;
 
 @SpringBootTest
 class MybatisPlusStudyApplicationTests {
@@ -25,6 +26,10 @@ class MybatisPlusStudyApplicationTests {
 
         List<User> list = userMapper.selectList(queryWrapper);
         list.forEach(System.out::println);
+    }
+
+    public static <R> R test(List<R> list){
+        return list.get(1);
     }
 
 }
