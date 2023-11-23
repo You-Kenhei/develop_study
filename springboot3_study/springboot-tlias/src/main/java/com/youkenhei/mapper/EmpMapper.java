@@ -23,7 +23,7 @@ public interface EmpMapper {
      * 员工信息查询，以及pageHelper分页所用
      */
 //    @Select("select * from tlias.emp")
-    public List<Emp> list(String name, Short gender, LocalDate begin, LocalDate end);
+    List<Emp> list(String name, Short gender, LocalDate begin, LocalDate end);
 
     void delete(List<Integer> ids);
 
