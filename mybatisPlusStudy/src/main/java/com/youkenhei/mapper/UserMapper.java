@@ -11,6 +11,6 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface UserMapper extends BaseMapper<User> {
 
-    @Select("select * from mybatis_plus.t_user where is_delete = 0 and age > #{age}")
+//    @Select("select * from mybatis_plus.t_user where is_delete = 0 and age > #{age}")
     Page<User> selectPageByAge(@Param("page") Page<User> page, @Param("age") Integer age);
 }
