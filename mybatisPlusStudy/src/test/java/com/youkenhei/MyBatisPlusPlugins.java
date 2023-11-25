@@ -45,10 +45,10 @@ public class MyBatisPlusPlugins {
 
     @Test
     public void testProduct01() {
-        Product productLi = productMapper.selectById(1);
+        Product productLi = productMapper.selectById(1L);
         System.out.println("小李查询的价格：" + productLi.getPrice());
         
-        Product productWang = productMapper.selectById(1);
+        Product productWang = productMapper.selectById(1L);
         System.out.println("小王查询的价格：" + productWang.getPrice());
     }
 }

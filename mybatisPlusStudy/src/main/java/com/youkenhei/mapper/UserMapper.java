@@ -11,6 +11,10 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface UserMapper extends BaseMapper<User> {
 
+//    @Param 注解是为了给参数重命名而使用的，当注入到xml中的参数名相同时则不需要
 //    @Select("select * from mybatis_plus.t_user where is_delete = 0 and age > #{age}")
-    Page<User> selectPageByAge(@Param("page") Page<User> page, @Param("age") Integer age);
+//    Page<User> selectPageByAge(@Param("page") Page<User> page, @Param("age") Integer age);
+
+    Page<User> selectPageByAge(Page<User> page, Integer age);
+
 }
