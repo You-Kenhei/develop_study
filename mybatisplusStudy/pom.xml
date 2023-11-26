@@ -44,18 +44,19 @@
             <version>3.5.3</version>
         </dependency>
 
+        <!--        MyBatis Plus代码快速生成-->
+
         <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-generator</artifactId>
             <version>3.5.3.1</version>
         </dependency>
-<!--        <dependency>
-            <groupId>freemarker</groupId>
+        <dependency>
+            <groupId>org.freemarker</groupId>
             <artifactId>freemarker</artifactId>
-            <version>2.3.9</version>
-        </dependency>-->
+            <version>2.3.31</version>
+        </dependency>
 
-        <!--        MyBatis Plus代码快速生成-->
 
     </dependencies>
 
