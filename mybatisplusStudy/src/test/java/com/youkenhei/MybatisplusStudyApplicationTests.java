@@ -5,18 +5,25 @@ import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.toolkit.StringUtils;
 import com.youkenhei.mapper.UserMapper;
 import com.youkenhei.pojo.User;
+import com.youkenhei.service.UserService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import java.util.Arrays;
 import java.util.List;
-import java.util.Map;
 
 @SpringBootTest
 class MybatisPlusStudyApplicationTests {
     @Autowired
     private UserMapper userMapper;
+
+    @Autowired
+    private UserService userService;
+
+    @Test
+    public void please(){
+        System.out.println(userService.getById(1L));
+    }
 
     @Test
     public void test1() {

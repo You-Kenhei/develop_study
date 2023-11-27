@@ -15,5 +15,5 @@ public class Product {
     @Version
     private Integer version;
     @TableLogic
-    private Integer idDelete;
+    private Integer isDelete;
 }

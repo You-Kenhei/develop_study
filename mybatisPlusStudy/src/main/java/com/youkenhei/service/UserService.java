@@ -1,7 +1,7 @@
-package com.youkenhei.dynamicdb.service;
+package com.youkenhei.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.youkenhei.dynamicdb.pojo.User;
+import com.youkenhei.pojo.User;
 
 public interface UserService extends IService<User> {
 }
