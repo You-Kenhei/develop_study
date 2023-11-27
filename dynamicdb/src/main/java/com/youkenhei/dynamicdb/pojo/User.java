@@ -1,7 +1,6 @@
-package com.youkenhei.pojo;
+package com.youkenhei.dynamicdb.pojo;
 
 import com.baomidou.mybatisplus.annotation.*;
-import com.youkenhei.enums.SexEnum;
 import lombok.Data;
 
 @Data
@@ -12,9 +11,9 @@ public class User {
     private String name;
     private Integer age;
     private String email;
-    private SexEnum sex;
     @TableLogic
-    private Integer isDelete;
+    private Integer idDelete;
+    private Integer sex;
     @Version
     private Integer version;
 }
