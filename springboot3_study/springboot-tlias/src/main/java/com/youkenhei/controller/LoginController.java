@@ -20,7 +20,7 @@ public class LoginController {
 
     @PostMapping("/login")
     public Result login(@RequestBody Emp emp) {
-        log.info("登陆-检验用户名密码");
+        log.info("登陆-检验用户名密码-开始");
         Emp e = empService.login(emp);
 
         if (e != null) {
