@@ -9,12 +9,12 @@
 #          url: jdbc:mysql://localhost:3306/mybatis_plus?serverTimezone=GMT%2B8&characterEncoding=utf-8&useSSL=false
 #          driver-class-name: com.mysql.cj.jdbc.Driver
 #          username: root
-#          password: y5x4b9x2
+#          password: 1234
 #        slave_1:
 #          url: jdbc:mysql://localhost:3306/mybatis_plus_1?serverTimezone=GMT%2B8&characterEncoding=utf-8&useSSL=false
 #          driver-class-name: com.mysql.cj.jdbc.Driver
 #          username: root
-#          password: y5x4b9x2
+#          password: 1234
 mybatis-plus:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
@@ -28,10 +28,10 @@ spring:
         master:
           url: jdbc:mysql://localhost:3306/mybatis_plus?serverTimezone=GMT%2B8&characterEncoding=utf-8&useSSL=false
           username: root
-          password: y5x4b9x2
+          password: 1234
           driver-class-name: com.mysql.jdbc.Driver # 3.2.0开始支持SPI可省略此配置
         slave_1:
           url: jdbc:mysql://localhost:3306/mybatis_plus_1?serverTimezone=GMT%2B8&characterEncoding=utf-8&useSSL=false
           username: root
-          password: y5x4b9x2
+          password: 1234
           driver-class-name: com.mysql.cj.jdbc.Driver
