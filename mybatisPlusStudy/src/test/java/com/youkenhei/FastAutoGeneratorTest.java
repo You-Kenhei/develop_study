@@ -10,7 +10,7 @@ import java.util.Collections;
 
 public class FastAutoGeneratorTest {
     public static void main(String[] args) {
-        FastAutoGenerator.create("jdbc:mysql://localhost:3306/mybatis_plus?serverTimezone=GMT%2B8&characterEncoding=utf-8&useSSL=false", "root", "y5x4b9x2")
+        FastAutoGenerator.create("jdbc:mysql://localhost:3306/mybatis_plus?serverTimezone=GMT%2B8&characterEncoding=utf-8&useSSL=false", "root", "1234")
                 .globalConfig(builder -> {
                     builder.author("YouKenhei") // 设置作者
 //                            .enableSwagger() // 开启 swagger 模式
