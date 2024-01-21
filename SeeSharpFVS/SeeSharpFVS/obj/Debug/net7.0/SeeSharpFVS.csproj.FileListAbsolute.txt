@@ -1,0 +1,15 @@
+/Users/yangjianping/Desktop/develop_study/SeeSharpFVS/SeeSharpFVS/bin/Debug/net7.0/SeeSharpFVS
+/Users/yangjianping/Desktop/develop_study/SeeSharpFVS/SeeSharpFVS/bin/Debug/net7.0/SeeSharpFVS.deps.json
+/Users/yangjianping/Desktop/develop_study/SeeSharpFVS/SeeSharpFVS/bin/Debug/net7.0/SeeSharpFVS.runtimeconfig.json
+/Users/yangjianping/Desktop/develop_study/SeeSharpFVS/SeeSharpFVS/bin/Debug/net7.0/SeeSharpFVS.dll
+/Users/yangjianping/Desktop/develop_study/SeeSharpFVS/SeeSharpFVS/bin/Debug/net7.0/SeeSharpFVS.pdb
+/Users/yangjianping/Desktop/develop_study/SeeSharpFVS/SeeSharpFVS/obj/Debug/net7.0/SeeSharpFVS.csproj.AssemblyReference.cache
+/Users/yangjianping/Desktop/develop_study/SeeSharpFVS/SeeSharpFVS/obj/Debug/net7.0/SeeSharpFVS.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yangjianping/Desktop/develop_study/SeeSharpFVS/SeeSharpFVS/obj/Debug/net7.0/SeeSharpFVS.AssemblyInfoInputs.cache
+/Users/yangjianping/Desktop/develop_study/SeeSharpFVS/SeeSharpFVS/obj/Debug/net7.0/SeeSharpFVS.AssemblyInfo.cs
+/Users/yangjianping/Desktop/develop_study/SeeSharpFVS/SeeSharpFVS/obj/Debug/net7.0/SeeSharpFVS.csproj.CoreCompileInputs.cache
+/Users/yangjianping/Desktop/develop_study/SeeSharpFVS/SeeSharpFVS/obj/Debug/net7.0/SeeSharpFVS.dll
+/Users/yangjianping/Desktop/develop_study/SeeSharpFVS/SeeSharpFVS/obj/Debug/net7.0/refint/SeeSharpFVS.dll
+/Users/yangjianping/Desktop/develop_study/SeeSharpFVS/SeeSharpFVS/obj/Debug/net7.0/SeeSharpFVS.pdb
+/Users/yangjianping/Desktop/develop_study/SeeSharpFVS/SeeSharpFVS/obj/Debug/net7.0/SeeSharpFVS.genruntimeconfig.cache
+/Users/yangjianping/Desktop/develop_study/SeeSharpFVS/SeeSharpFVS/obj/Debug/net7.0/ref/SeeSharpFVS.dll
