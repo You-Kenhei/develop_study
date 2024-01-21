@@ -1,10 +1,11 @@
 ﻿<Properties StartupConfiguration="{A8C20F7F-FFD9-4625-A7F2-829F2503CF6E}|Default">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.SeeSharpFVS PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workbench ActiveDocument="SeeSharpFVS/Program.cs">
     <Files>
       <File FileName="SeeSharpFVS/Program.cs" Line="4" Column="1" />
@@ -12,14 +13,11 @@
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="SeeSharpFVS">
-            <Node name="SeeSharpFVS" expanded="True">
-              <Node name="Program.cs" selected="True" />
-            </Node>
+          <Node name="SeeSharpFVS" expanded="True">
+            <Node name="SeeSharpFVS" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.SeeSharpFVS PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>
