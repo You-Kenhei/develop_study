@@ -1,0 +1,15 @@
+/Users/yangjianping/Desktop/develop_study/learn_some_see_sharp/bin/Debug/net8.0/learn_some_see_sharp
+/Users/yangjianping/Desktop/develop_study/learn_some_see_sharp/bin/Debug/net8.0/learn_some_see_sharp.deps.json
+/Users/yangjianping/Desktop/develop_study/learn_some_see_sharp/bin/Debug/net8.0/learn_some_see_sharp.runtimeconfig.json
+/Users/yangjianping/Desktop/develop_study/learn_some_see_sharp/bin/Debug/net8.0/learn_some_see_sharp.dll
+/Users/yangjianping/Desktop/develop_study/learn_some_see_sharp/bin/Debug/net8.0/learn_some_see_sharp.pdb
+/Users/yangjianping/Desktop/develop_study/learn_some_see_sharp/obj/Debug/net8.0/learn_some_see_sharp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yangjianping/Desktop/develop_study/learn_some_see_sharp/obj/Debug/net8.0/learn_some_see_sharp.AssemblyInfoInputs.cache
+/Users/yangjianping/Desktop/develop_study/learn_some_see_sharp/obj/Debug/net8.0/learn_some_see_sharp.AssemblyInfo.cs
+/Users/yangjianping/Desktop/develop_study/learn_some_see_sharp/obj/Debug/net8.0/learn_some_see_sharp.csproj.CoreCompileInputs.cache
+/Users/yangjianping/Desktop/develop_study/learn_some_see_sharp/obj/Debug/net8.0/learn_some_see_sharp.sourcelink.json
+/Users/yangjianping/Desktop/develop_study/learn_some_see_sharp/obj/Debug/net8.0/learn_some_see_sharp.dll
+/Users/yangjianping/Desktop/develop_study/learn_some_see_sharp/obj/Debug/net8.0/refint/learn_some_see_sharp.dll
+/Users/yangjianping/Desktop/develop_study/learn_some_see_sharp/obj/Debug/net8.0/learn_some_see_sharp.pdb
+/Users/yangjianping/Desktop/develop_study/learn_some_see_sharp/obj/Debug/net8.0/learn_some_see_sharp.genruntimeconfig.cache
+/Users/yangjianping/Desktop/develop_study/learn_some_see_sharp/obj/Debug/net8.0/ref/learn_some_see_sharp.dll
