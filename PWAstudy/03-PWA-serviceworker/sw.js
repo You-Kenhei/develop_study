@@ -1,14 +1,19 @@
 self.addEventListener('install', event => {
-    console.log("安装")
+    console.log("install",event)
 
+    // skip waiting, to activate next serviceWorker
+    // event.waitUntil to make sure skipWaiting is done
+    event.waitUntil(self.skipWaiting())
 })
 
 self.addEventListener('activate', event => {
-    console.log("激活")
+    console.log("activate",event)
     
+    // 
+    event.waitUntil(self.clients.claim())
 })
 
 self.addEventListener('fetch', event => {
-    console.log("捕捉")
+    console.log("fetch",event)
     
 })
