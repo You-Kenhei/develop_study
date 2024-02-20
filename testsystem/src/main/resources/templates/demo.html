@@ -1,13 +1,15 @@
-<!DOCTYPE HTML>
-<html xmlns:th="http://www.thymeleaf.org" lang="cn">
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title>SpringBoot - テスト用画面</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta charset="UTF-8"/>
+    <meta charset="UTF-8">
+    <title>测试Thymeleaf</title>
 </head>
 <body>
-    <h1 th:text="'これはDemoですか？'">ｈｔｍｌ－見出し１</h1>
-    はい、SpringBootで推奨されています。
-    <span th:text="${name}"></span>
+
+  <h1>测试 Thymeleaf模板 </h1>
+
+
+  <h4>获取数据: <span th:text="${msg}"></span></h4>
+
 </body>
 </html>
