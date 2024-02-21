@@ -21,7 +21,11 @@
 	#topheader {
 			padding: 25px 15px 15px 15px;
 			margin: 0 auto 0 auto;
-			background: url(../img/top_left.gif) top left repeat-x #666666;
+			background: url(../img/top_left.gif) ;
+	}
+	#p1 {
+		position: relative;
+		left: 133px;
 	}
 
 	#rightheader {
@@ -65,7 +69,7 @@
 	#navigation {
 		background: #666666;
 		/*border-top: 1px solid #ffffff;*/
-		height: 25px;
+		height: 5px;
 		clear: both
 	}
 	#navigation ul {
@@ -145,7 +149,7 @@
 	#footer #footer_bg {
 		background: url(../img/footer_bg.gif) repeat-x left bottom #666666;
 		padding: 15px 15px 25px 15px;
-		border-top: 1px solid #7BB425;
+		border-top: 1px solid #84abf3;
 	}
 
 	#footer #design {
@@ -439,3 +443,4 @@
 		font-size: 1.2em;
 		color: #73A822;
 	}
+
